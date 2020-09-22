@@ -6,8 +6,8 @@ import cv2
 import numpy as np
 
 # Used for the detection of the face in a particular frame
-face_classifier = cv2.CascadeClassifier(r'C:\Users\KAPIL\Downloads\emotion_detection-master\emotion_detection-master\haarcascade_frontalface_default.xml')
-classifier =load_model(r'C:\Users\KAPIL\Downloads\emotion_detection-master\emotion_detection-master\Emotion_little_vgg.h5')
+face_classifier = cv2.CascadeClassifier(r'C:\Users\KAPIL\Downloads\emotion_detection-master\emotion_detection-master\BE-PROJECT\haarcascade_frontalface_default.xml')
+classifier =load_model(r'C:\Users\KAPIL\Downloads\emotion_detection-master\emotion_detection-master\BE-PROJECT\Emotion_little_vgg.h5')
 
 class_labels = ['Dissatisfied','Neutral','Satisfied']
 feedback_count={'Dissatisfied':0,'Neutral':0,'Satisfied':0}

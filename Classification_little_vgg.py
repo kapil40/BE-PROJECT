@@ -127,7 +127,7 @@ checkpoint = ModelCheckpoint('Emotion_little_vgg.h5',
 
 earlystop = EarlyStopping(monitor='val_loss',
                           min_delta=0,   # If value is less than min_delta then it will stop 
-                          patience=9,    # Check till 3 epochs if no improvement then stop training 
+                          patience=9,    # Check till 9 epochs if no improvement then stop training 
                           verbose=1,
                           restore_best_weights=True
                           )
