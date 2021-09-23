@@ -13,7 +13,7 @@ class_labels = ['Dissatisfied','Neutral','Satisfied']
 feedback_count={'Dissatisfied':0,'Neutral':0,'Satisfied':0}
 
 # To access the video camera
-cap = cv2.VideoCapture('http://192.168.1.219:8080/video')
+cap = cv2.VideoCapture(0)
 
 
 
